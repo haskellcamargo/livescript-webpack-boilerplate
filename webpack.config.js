@@ -8,6 +8,7 @@ module.exports = {
   module: {
     loaders: [{
       test: /\.ls$/,
+      exclude: /node_modules/,
       loader: 'livescript-loader'
     }]
   },

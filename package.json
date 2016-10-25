@@ -5,7 +5,7 @@
   "main": "./dist/hello.js",
   "scripts": {
     "bootstrap": "lsc -cpb webpack.ls > webpack.config.js",
-    "build": "webpack -d"
+    "build": "webpack"
   },
   "repository": {
     "url": "https://github.com/haskellcamargo/livescript-webpack-boilerplate",

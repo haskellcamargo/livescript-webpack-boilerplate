@@ -17,3 +17,5 @@ jspm_packages
 .eslintcache
 .node_repl_history
 *.tgz
+dist
+webpack.js
