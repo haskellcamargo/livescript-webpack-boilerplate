@@ -3,10 +3,20 @@
   "version": "0.1.0",
   "description": "LiveScript and Webpack boilerplate",
   "main": "./dist/hello.js",
+  "scripts": {
+    "bootstrap": "lsc -cpb webpack.ls > webpack.config.js",
+    "build": "webpack -d"
+  },
   "repository": {
     "url": "https://github.com/haskellcamargo/livescript-webpack-boilerplate",
     "type": "git"
   },
   "author": "Marcelo Camargo <marcelocamargo@linuxmail.org>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "livescript-loader": "^0.1.6"
+  },
+  "devDependencies": {
+    "livescript": "^1.5.0"
+  }
 }
