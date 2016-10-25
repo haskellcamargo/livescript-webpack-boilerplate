@@ -1,0 +1,12 @@
+{
+  "name": "livescript-webpack-boilerplate",
+  "version": "0.1.0",
+  "description": "LiveScript and Webpack boilerplate",
+  "main": "./dist/hello.js",
+  "repository": {
+    "url": "https://github.com/haskellcamargo/livescript-webpack-boilerplate",
+    "type": "git"
+  },
+  "author": "Marcelo Camargo <marcelocamargo@linuxmail.org>",
+  "license": "MIT"
+}
